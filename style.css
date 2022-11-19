@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.logo img{
+  width: 150px;
+}
+.header1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+.bar{
+  display: none;  
+}
+.header2{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+.header2 ul{
+  list-style: none;
+  display: flex;
+}
+.button button {
+  width: 100%;
+  padding: 10px;
+  background-color: red;
+  border: none;
+  color: aliceblue;
+  border-radius: 4px;
+}
+.header2 li{
+  padding: 15px;
+}
+
+
+
+
+
+.section1{
+  background-color: rgba(69, 69, 232, 0.703);
+  color: rgba(255, 255, 255, 0.898);
+  text-align: center;
+  padding: 25px;
+  line-height: 2;
+}
+input[type="text"]{
+  width: 45%;
+  height: 35px;
+}
+button{
+  height: 35px;
+  width: 40px;
+  margin-bottom: 10px;
+}
+.img1,.img2,.img3{
+  width: 300px;
+}
+.section1 p{
+  margin-bottom: 10px;
+}
+.section2{
+  padding: 25px 0;
+}
+.img1 img,.img2 img,.img3 img{
+  width: 100%;
+  height: 170px;
+}
+.profile1 img{
+  width: 40px;
+  height: 40px;
+}
+.title{
+  text-align: center;
+  padding: 25px 0;  
+  line-height: 1.5;
+}
+.imagessection{
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  flex-wrap: wrap;
+}
+.imagessection h3{
+  margin-top: 20px;
+}
+.imagessection span{
+  float: right;
+}
+.profile1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section3{
+  padding: 25px 0;
+  background-color: rgba(69, 69, 232, 0.703);
+  color: rgba(255, 255, 255, 0.898);
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  line-height: 1.4;
+  flex-wrap: wrap;
+}
+.section3 img{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.sec1,.sec2,.sec3{
+  padding: 25px 0;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(92, 92, 233, 0.493);
+  border-radius: 7px;
+  text-align: center;
+}
+.section3 h3{
+  margin-bottom: 15px;
+}
+
+
+
+
+
+@media screen and (max-width: 830px) {
+  header{
+    padding: 10px;
+  }
+  .header1{
+    margin: 0;
+    padding: 0;
+  }
+  .header2{
+    margin: 0;
+    padding: 0;
+  }
+  .header1 .icons{
+    display: none;
+  }
+  .header1 .bar{
+    display: block;
+  }
+  .header2 .menu{
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+  .header2 .bar{
+    display: block;
+  }
+}
